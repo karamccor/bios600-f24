@@ -1,13 +1,8 @@
 ---
 title: "Week 1"
-subtitle: "Welcome to STA 210"
+subtitle: "Welcome to BIOS 600"
 editor: visual
 ---
-
-::: callout-important
-Classes are virtual this week.
-Find Zoom links [here](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/page/d5eef508-07a4-4c6d-b7bd-4614a9631562 "Sakai - Zoom meetings").
-:::
 
 ## Prepare
 
@@ -15,11 +10,15 @@ Find Zoom links [here](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd0
 
 📖 Read the [support](/course-support.html) resources
 
+📖 Read Basic Biostatistics, Section 1.3, 1.4
+
 ## Participate
+
+🖥️ [Lecture 1 - Welcome to BIOS 600](/slides/lec-1.html)
 
 🖥️ [Lab 0 -](/_slides/lab-0.html)[Meet](/slides/lab-0.html)[+ greet](/_slides/lab-0.html)
 
-🖥️ [Lecture 1 - Welcome to STA 210](/slides/lec-1.html)
+
 
 ## Practice
 
