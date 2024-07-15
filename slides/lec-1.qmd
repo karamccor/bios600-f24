@@ -50,11 +50,23 @@ library(countdown)
 
 ## What is biostatistics?
 
-::: {style="font-size: 0.8em;"}
-> "Biostatistics is the discipline concerned with the treatment and analysis of numerical data derived from biological, biomedical, and health-related studies. The discipline encompasses a broad range of activities, including the design of research, collection and organization of data, summarization of results, and interpretation of findings. "
-:::
+A process that converts data into useful information, whereby practitioners
 
-Source: [Basic Biostatistics, pg 1](https://www.jblearning.com/catalog/productdetails/9781284036015)
+1. form a question of interest
+2. collect and summarize data
+3. and interpret the results
+
+## What is biostatistics good for?
+
+![](images/lec-1/hurricane.png){width=300}
+
+## What is biostatistics good for?
+
+![](images/lec-1/hospital.png){width=300}
+
+## What is biostatistics good for?
+
+![](images/lec-1/incarceration.png){width=300}
 
 ## Course FAQ
 
@@ -71,16 +83,6 @@ Source: [Basic Biostatistics, pg 1](https://www.jblearning.com/catalog/productde
 -   Use [Quarto](https://quarto.org/) to write reproducible reports
 -   Communicate results from statistical analyses to a general audience.
 
-## Examples of biostatistics in practice
-
-::: incremental
--   [Study finds 'statistically significant' cancer levels in Long Island school district](https://abcnews.go.com/US/video/study-finds-statistically-significant-cancer-levels-long-island-86452522)
-
--   [Why it's so freaking hard to make a good COVID-19 model](https://fivethirtyeight.com/features/why-its-so-freaking-hard-to-make-a-good-covid-19-model/)
-
--   [Mind-body exercise as an intervention of depression and anxiety in postmenopausal women](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-024-19348-2)
-:::
-
 # Course overview
 
 ## Homepage
@@ -95,24 +97,26 @@ Source: [Basic Biostatistics, pg 1](https://www.jblearning.com/catalog/productde
 
 All linked from the course website:
 
--   RStudio: [Download RStudio](https://posit.co/download/rstudio-desktop/)
+-   RStudio
     -   Note: The TA will guide you through downloading RStudio later today in the first lab.
--   Discussion forum: \[Conversations\]
+-   Discussion forum: \[Ed Discussions\]
 -   Assignment submission and feedback: \[Canvas\]
 
-::: callout-important
-Download RStudio before lab on Tuesday!
-:::
+
+## What have I gotten myself into?
+
+- BIOS 600 is an introduction to biostatistics that:
+  - provides a tour of basic statistical methods commonly encountered in public health and biomedical research,
+  - emphasizes understanding of methods, using them to arrive at data-driven decisions, and effective communication of such results.
+  - Utilizes modern software such as RStudio to reproducibly examine and manipulate data to make sound scientific conclusions
 
 ## Activities: Participate, Practice, Perform {.smaller}
 
--   **Prepare:** Introduce new content and prepare for lectures by completing the readings
 -   **Participate:** Attend and actively participate in lectures and labs, office hours
--   **Practice:** Practice applying statistical concepts and computing with application exercises during lecture
+-   **Practice:** Practice applying statistical concepts and computing with lab exercises
 -   **Perform:** Put together what you've learned to analyze real-world data
-    -   Lab assignments (individual)
-    -   Homework assignments (individual)
-    -   Three take-home exams
+    -   Homework assignments (individual, then team)
+    -   Three in-class exams
     -   Term project presented during the final exam period
 
 ## Cadence
@@ -120,8 +124,8 @@ Download RStudio before lab on Tuesday!
 ::: incremental
 -   **Labs:** Start and make large progress on Tuesday in lab section, finish up by Friday 5pm of that week
 -   **HWs:** Posted Friday morning, due following Friday 5pm
--   **Exams:** Exam review Thursday in class, exam posted Friday morning, no lab on Tuesday of following week, due Monday 11:59pm
--   **Project:** Deadlines throughout the semester, with some lab and lecture time dedicated to working on them, and most work done in teams outside of class
+-   **Exams:** In-person portion and take-home portion, more info as semester progresses.
+-   **Project:** Towards end of semester,  most work done in teams outside of class
 :::
 
 ## Teams
@@ -145,12 +149,12 @@ Download RStudio before lab on Tuesday!
 | Exam 02  | 10%        |
 | Exam 03  | 10%        |
 
-See [course syllabus](https://sta210-s22.github.io/website/course-syllabus.html) for how the final letter grade will be determined.
+See [course syllabus](https://bios600-f24.github.io/website/course-syllabus.html) for how the final letter grade will be determined.
 
 ## Support
 
 -   Attend office hours
--   Ask and answer questions on the discussion forum
+-   Ask and answer questions on the discussion forum, Ed Discussions
 -   Reserve email for questions on personal matters and/or grades
 -   Read the [course support](https://bios600-fa24.github.io/website/course-support.html) page
 
@@ -158,7 +162,6 @@ See [course syllabus](https://sta210-s22.github.io/website/course-syllabus.html)
 
 -   Posted on Canvas (Announcements tool) and sent via email, be sure to check both regularly
 -   I'll assume that you've read an announcement by the next "business" day
--   I'll (try my best to) send a weekly update announcement each Friday, outlining the plan for the following week and reminding you what you need to do to prepare
 
 ## Diversity + inclusion {.smaller}
 
@@ -181,7 +184,7 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 
 ## Late work, waivers, regrades policy
 
--   We have policies! \[Need to update!!\]
+-   We have policies! 
 -   Read about them on the [course syllabus](https://bios600-fa24.github.io/website/course-syllabus.html) and refer back to them when you need it
 
 ## Collaboration policy
@@ -225,10 +228,9 @@ I want to make sure that you learn everything you were hoping to learn from this
 
 -   In lab today (3:50-4:20 Room TBD):
     -   Meet the TA
-    -   Complete the Getting to know you survey
     -   Download RStudio
+    -   Complete the first lab assignment
 -   Read the syllabus!
+-   Complete the Getting to know you survey by Thursday's class!
 
-::: callout-important
-Download RStudio before lab on Tuesday!
-:::
+
