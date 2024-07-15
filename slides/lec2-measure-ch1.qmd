@@ -1,0 +1,220 @@
+---
+title: "Lecture 2: Measurement, Ch 1"
+subtitle: "BIOS 600 - Fall 2024"
+author: "Dr. Kara McCormack"
+footer:  "[bios600-fa24.github.io/website](https://bios600-fa24.github.io/website/)"
+logo: "images/logo_600.png"
+format: 
+  revealjs: 
+    theme: slides.scss
+    multiplex: true
+    transition: fade
+    slide-number: true
+editor: visual
+execute:
+  freeze: auto
+---
+
+```{r setup}
+#| include: false
+library(countdown)
+knitr::opts_chunk$set(
+  fig.width = 6,
+  fig.asp = 0.618,
+  fig.align = "center",
+  out.width = "90%"
+)
+```
+
+# Welcome
+
+## Announcements
+
+-   If you're just joining the class, welcome! Go to the [course website](https://bios600-fa24.github.io/website) and review content you've missed, read the syllabus, and complete the *Getting to know you* survey on Canvas.
+-   Lab 1 is due Friday, at 5pm, on Canvas.
+
+## Outline
+
+-   How are data typically measured and organized?
+-   Types of measurement scales
+-   Data quality
+-   Imprecision and bias
+
+# Organization of data
+
+## Measurement
+
+-   **Measurement** is how we get our data
+-   "the assignment of numbers or codes according to prior-set rules"
+    -   Example: positioning observations along a numerical continuum (e.g. determining a person's age)
+    -   Example: classifying observations into categories (e.g. determining whether someone is positive or negative for HIV antibodies)
+
+## Observation
+
+-   **Observation** refers to the unit upon which measurements are made.
+-   May correspond to people or specimens (or countries, or counties, etc.)
+-   May also correspond to aggregates
+    -   smoking habits of *individual* (in term of "pack-years" for instance), unit of observation = person, vs.
+    -   smoking habits of a *region* (e.g. per capita cigarette consumption), unit of observation = region.
+
+## Observations, variables, and values
+
+-   **Observations** are the units upon which measurements are made
+-   **Variables** are the characteristics being measured
+-   **Values** are realized measurements
+
+## Data table
+
+-   Once data are collected, they are organized to form a data table.
+
+    -   Observations --\> rows
+    -   Variables --\> columns
+    -   Values --\> table cells
+
+## Example: Per capita cigarette consumption {.smaller}
+
+-   Per capita cigarette consumption in 1930 (cig1930) and lung cancer cases per 100,000 in 1950 (lungca) in 11 countries
+
+| Country       | cig1930 | lungca |
+|---------------|:--------|-------:|
+| USA           | 1300    |     20 |
+| Great Britain | 1100    |     46 |
+| Finland       | 1100    |     35 |
+| Switzerland   | 510     |     25 |
+| Canada        | 500     |     15 |
+| Holland       | 490     |     24 |
+
+
+# Types of measurement scales
+
+## Categorical measurements
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Nominal data
+
+- named categories without numeric meaning
+- only two categories: binary or dichotomous
+- Breast cancer status, blood type, health insurance provider type, etc.
+:::
+
+::: {.column width="50%"}
+Ordinal data
+
+- Ordered categories, but differences between values not easily measured
+- Relative comparisons made about differences between levels
+- Stage of colon cancer, Likert scale, frequency of smoking (often, sometimes, rarely, never), etc. 
+:::
+
+::::
+
+
+
+## Numerical data
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Count or rank data
+
+- discrete counts. Or ranks.
+- Number of alcoholic drinks consumed in past week, numerical rank of cancers by mortality, etc. 
+
+:::
+
+::: {.column width="50%"}
+Continuous data
+
+- Measurable quantities where difference between possible values can be arbitrarily small
+- Data may lie within a range or be unbounded
+- Birth weight, BMI, ppm ozome, etc. 
+:::
+
+::::
+
+
+
+## Identifying data types
+
+![](images/lec-1/tab1.png){width=300}
+
+# Data quality
+
+## Garbage in, garbage out
+
+- Sophisticated numerical analysis cannot compensate for poor-quality data. 
+- Statisticians have a saying for this: "garbage in, garbage out". 
+- **Objectivity**: intent to measure things as they are without shaping them to conform to a preconcieved worldview
+
+## Complications
+
+In designing a study, what variable should we use for smoking exposure?
+
+- Binary variable yes/no?
+- Ordinal current/former/never smoker?
+- Discrete number of cigarettes smoked in past week?
+- Continuous measurement of lifetime pack-years?
+
+In the real world, decisions are made based on sample size, statistical power, likelihood of measurement error, or simply convenience (this happens a lot!)
+
+## Two types of inaccuracies
+
+- **Imprecision** is the random inability to get the same result upon repetition 
+- **Bias** is a systematic deviation from the truth. 
+- When something is **unbiased**, it is said to be valid.
+
+## Example
+
+![](images/lec-1/bias.png){width=300}
+
+# Exploratory data analysis (EDA)
+
+## Exploratory data analysis (EDA)
+
+- Initial data analysis approach that summarizes main characteristics of dataset
+
+- Often visual or in the form of basic summary statistics
+
+## Data visualization
+
+- The creation and study of the visual representation of data
+- Many tools available (R is populat, many systems within R for data visualization)
+- Creating visualizations helps us see patterns and identify potential data quality issues
+- We will focus on ggplot2, a component of tidyverse
+
+## ggplo2 in tidyverse
+
+## what is a Grammar of Graphics?
+
+## What is a Grammar of Graphics?
+
+## Visualizing CDC data
+
+Let's take a look at some basic visualizations using state-level data collected by CDC. We'll examine the following variables:
+
+- State (categorical; nominal)
+- HDI (categorical; ordinal)
+- Region (categorical; nominal)
+- Adult obesity % (numerical; continuous)
+- Adequate aerobic activity % (numerical; continuous)
+
+## Bar charts
+
+## Box plots
+
+## Histograms
+
+## Line plots
+
+## Scatterplots
+
+## Some best practices
+
+
+
+## Recap
+
+- Biostatistics involves a broad range of activities that help us improve the intellectual content of data from biological, biomedical, and public health-related studies; it is more than just a compilation of computational methods. 
+
+- Measurement is assigning numbers or codes according to prior-set rules
