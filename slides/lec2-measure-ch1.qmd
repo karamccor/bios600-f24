@@ -18,6 +18,7 @@ execute:
 ```{r setup}
 #| include: false
 library(countdown)
+library(tidyverse)
 knitr::opts_chunk$set(
   fig.width = 6,
   fig.asp = 0.618,
@@ -179,15 +180,49 @@ In the real world, decisions are made based on sample size, statistical power, l
 ## Data visualization
 
 - The creation and study of the visual representation of data
-- Many tools available (R is populat, many systems within R for data visualization)
+- Many tools available (R is popular, many systems within R for data visualization)
 - Creating visualizations helps us see patterns and identify potential data quality issues
 - We will focus on ggplot2, a component of tidyverse
 
-## ggplo2 in tidyverse
+## ggplot2 in tidyverse
 
-## what is a Grammar of Graphics?
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- The tidyverse is a group of R packages designed for data science
+- All tidyverse packages share an underlying design philosophy
+- Data visualization package in the tidyverse
+- Inspired by *The Grammar of Graphics* (Wilkinson)
+
+![](images/lec-2/gg.png)
+
+:::
+
+::: {.column width="50%"}
+![](images/lec-2/ggplot2.png)
+:::
+
+::::
+
+
+
 
 ## What is a Grammar of Graphics?
+
+- A system allowing for concise description of graphical components
+
+![](images/lec-2/gg.png){width=300}
+
+
+## What is a Grammar of Graphics?
+
+A statistical graphic is
+
+- data (which may be statistically summarized or transformed)
+- **mapped** to **aesthetic** attributes (color, size, xy-position, etc.)
+- using **geometries** (points, lines, bars, etc.)
+- mapped onto a specific **coordinate** and/or **facet** system
 
 ## Visualizing CDC data
 
@@ -201,16 +236,163 @@ Let's take a look at some basic visualizations using state-level data collected 
 
 ## Bar charts
 
+```{r}
+cdc <- read.csv("https://www2.stat.duke.edu/courses/Spring21/sta102.001/labs/data/cdc_cleaned.csv")
+
+# write.csv(cdc, "C:/Users/kmcco/OneDrive - University of North Carolina at Chapel Hill/Documents/UNC_Teaching/fall2024/bios600-f24/labs/data/cdc_cleaned.csv")
+```
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r fig.height = 8, fig.width = 7, fig.asp=1}
+cdc |>
+  count(Region) |>
+  ggplot(aes(x = Region, y = n)) +
+  geom_bar(stat="identity", fill = "salmon2") +
+  ggtitle("The South has the largest number of states")
+```
+
+:::
+
+::: {.column width="50%" style="font-size: 70%;"}
+
+- Summarizes numerical variable by categories
+- Visually depict frequency distributions for nominal or ordinal data
+- Bars represent either frequency or relative frequency by category
+- Separation between bars (non-continuous data)
+- May contain error bars to indicate estimate variability
+:::
+
+::::
+
+
 ## Box plots
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r fig.height = 8, fig.width = 7, fig.asp=1}
+cdc |>
+  ggplot(aes(x=HDI, y = Obesity)) +
+  geom_boxplot() +
+  ggtitle("Lower HDIs associated with higher obesity %")
+```
+
+:::
+
+::: {.column width="50%" style="font-size: 70%;"}
+
+- Summarizes numerical variable
+- Five-number summary: sample minimum, 25th percentile, median, 75th percentile, sample maximum
+- Outliers
+- Spread and skew
+- (More on all these later!)
+:::
+
+::::
+
 
 ## Histograms
 
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r fig.height = 8, fig.width = 7, fig.asp=1}
+cdc |>
+  ggplot(aes(x=Obesity)) +
+  geom_histogram(color = "deeppink4", 
+                 fill = "goldenrod2",
+                 bins = 20) +
+  ggtitle("Most states have approx. 30% adult obesity")
+```
+
+:::
+
+::: {.column width="50%" style="font-size: 70%;"}
+
+- Summarizes numerical variable
+- Five-number summary: sample minimum, 25th percentile, median, 75th percentile, sample maximum
+- Outliers
+- Spread and skew
+- (More on all these later!)
+:::
+
+::::
+
+
 ## Line plots
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r fig.height = 8, fig.width = 7, fig.asp=1}
+cdc |>
+  filter(State %in% c("California", "Colorado", "Connecticut", "Delaware")) |>
+  ggplot(aes(x = State, y = InfantMortalityRate, group_by = State)) +
+  geom_line() +
+  geom_point() +
+  ggtitle("Infant mortality rate by State")
+
+```
+
+:::
+
+::: {.column width="50%" style="font-size: 70%;"}
+
+- Summarizes numerical variable (most often used across time)
+- Each value on x-axis corresponds to only one measurement on y-axis (and vice versa)
+- Often used to depict change over time and connected with line.
+
+::: {.callout-warning title="Question"}
+Is the plot on the left useful?
+:::
+
+:::
+
+::::
+
 
 ## Scatterplots
 
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r fig.height = 8, fig.width = 7, fig.asp=1}
+cdc |>
+  ggplot(aes(x = Exercise, y = Obesity)) +
+  geom_point() + 
+  facet_grid(. ~ HDI) +
+  ggtitle("Adequate aerobic activity associated with lower obesity") +
+  xlab("Adequate aerobic activity (%)")
+
+```
+
+:::
+
+::: {.column width="50%" style="font-size: 70%;"}
+
+- Shows relationship between multiple continuous measurements
+
+- You can add color, shape, transparency, etc to further differentiate by category
+
+
+:::
+
+::::
+
+
 ## Some best practices
 
+- Keep it simple
+- Summarize and highlight
+- Tell a story with the plot (use "active titles")
+- If possible, replace text with visuals
 
 
 ## Recap
@@ -218,3 +400,6 @@ Let's take a look at some basic visualizations using state-level data collected 
 - Biostatistics involves a broad range of activities that help us improve the intellectual content of data from biological, biomedical, and public health-related studies; it is more than just a compilation of computational methods. 
 
 - Measurement is assigning numbers or codes according to prior-set rules
+
+- Data quality: garbage in, garbage out. Imprecision and bias.
+- Exploratory data analysis: initial data analysis that summarizes key aspects of data
