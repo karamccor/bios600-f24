@@ -66,3 +66,44 @@ Next, install RStudio Desktop, which can be [downloaded here](https://posit.co/d
 With R and RStudio installed, we'll begin by exploring RStudio: the interface, reading in data, and basic commands. Upon opening RStudio, you should see something similar to the window below:
 
 ![](C:/Users/kmcco/OneDrive - University of North Carolina at Chapel Hill/Documents/UNC_Teaching/fall2024/bios600-f24/labs/images/lab-1/r3.png)
+
+The **console** is the panel on the left side, and is where users can type commands and see immediate output. Let's try it out! Type the following code into the console:
+
+```{r echo = T, eval = F}
+3 + 5
+```
+You should get output that looks like
+
+```{r}
+3 + 5
+```
+(For now, ignore the `[1]`). By typing in `3+5`, we got the expected answer, `8`. We can see that R can be used as a calculator directly in the console. Try some other commands that use R as a calculator. For instance, `3*25`, `exp(2)`, or `(10+5^2)/sqrt(40)`. Of course, R is not simply a calculator; other commands may also be entered here. 
+
+To illustrate, let's load a dataset. Enter the following command into the console (you can directly copy/paste it, but make sure everything is exactly as below):
+
+```{r echo = T}
+# temporary
+cdc <- read.csv("https://www2.stat.duke.edu/courses/Spring21/sta102.001/labs/data/cdc_cleaned.csv")
+
+# what it should eventually be once I get the website up
+# cdc <- read.csv("https://bios600-f24.github.io/labs/data/cdc_cleaned.csv")
+```
+
+We've just loaded a dataset named `cdc`. These data come primarily from the Sortable Risk Factors and Health Indicators dataset from the CDC, which omprises demographic and health indices compiled from various federal sources. This dataset is now part of our **environment**, which is displayed on the top half and right side of the RStudio window. 
+
+- The environment contains all objects in the current working space. These objects could be variables, lists of variables, or even entire datasets. 
+
+- In the same location as the environment tab, the **history tab displays all commands used during the current session (don't worry about the connections tab for now). 
+
+- Finally, the bottom half of the right-hand panel shows information regarding files on your hard drive, installed packages, output such as plots, and help files or other documents. 
+
+coming back to the dataset we loaded in, we can see that it is named `cdc`. We can take a look at this dataset in a spreadsheet-like window by clicking on `cdc` in the Environment tab to the right, or by running the following code in the console:
+
+```{r echo = T}
+View(cdc)
+```
+
+
+**Attribution**
+
+This lab was adapted from STA102 at Duke University (professors Sam Berchuck and Yue Jiang). 
