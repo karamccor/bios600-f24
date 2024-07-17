@@ -3,22 +3,18 @@ project:
 
 website:
   page-navigation: true
-  title: "STA 210 - Spring 2022"
-  description: "Homepage for STA 210 - Regression Analysis at Duke University, Spring 2022."
-  site-url: "https://sta210-s22.github.io/website/"
+  title: "BIOS 600 - Fall 2024"
+  description: "Homepage for BIOS 600 - Principles of Statistical Inference, Fall 2024"
+  site-url: "https://bios600-f24.github.io/website/"
 
-  repo-url: https://github.com/sta210-s22/website
+  repo-url: https://github.com/bios600-f24/website
   repo-actions: [edit, issue]
 
   open-graph: true
 
-  twitter-card:
-    creator: "@minebocek"
-    image: "images/twitter-card.png"
-
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2022, Mine Çetinkaya-Rundel"
+    left: "Website adapted from STA210 course template, created by Mine Çetinkaya-Rundel"
     background: "#FEDCD2"
 
   sidebar:
@@ -30,9 +26,6 @@ website:
       - icon: github
         href: https://github.com/bios600-f24
         text: "GitHub organization"
-      - icon: code-square
-        href: https://cmgr.oit.duke.edu/containers
-        text: "RStudio Containers"
       - icon: person-fill
         text: "Sakai"
         menu:
