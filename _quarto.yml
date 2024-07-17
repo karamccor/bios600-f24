@@ -28,7 +28,7 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/sta210-s22
+        href: https://github.com/bios600-f24
         text: "GitHub organization"
       - icon: code-square
         href: https://cmgr.oit.duke.edu/containers
