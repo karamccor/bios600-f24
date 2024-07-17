@@ -19,7 +19,7 @@ Due Friday, Aug 23 at 5pm.
 
 -   Introduction to the lab assignment (\~ 5 - 10 minutes)
 
--   Work on the lab assignment (individual at first, but in teams for the rest of the semester)
+-   Work on the lab assignment (individual at first, but will switch to teams in a few weeks.)
 
 -   Lab instructions posted on the [course website](https://bios600-f24.github.io/website/ "BIOS 600 Course website").
 
@@ -52,4 +52,17 @@ R is a statistical programming language used for computation, data analysis, and
 
 - In this class, we'll be doing all of our computation in RStudio. 
 
-Let's begin by installing R and RStudio. First, we need to install R, which can be [downloaded here](https://cran.r-project.org/)
+Let's begin by installing R and RStudio. First, we need to install R, which can be [downloaded here](https://cran.r-project.org/) (see screenshot below). 
+
+![](C:/Users/kmcco/OneDrive - University of North Carolina at Chapel Hill/Documents/UNC_Teaching/fall2024/bios600-f24/labs/images/lab-1/r1.png)
+
+
+Next, install RStudio Desktop, which can be [downloaded here](https://posit.co/download/rstudio-desktop/) (see screenshot below). 
+
+![](C:/Users/kmcco/OneDrive - University of North Carolina at Chapel Hill/Documents/UNC_Teaching/fall2024/bios600-f24/labs/images/lab-1/r2.png)
+
+## First Steps in RStudio
+
+With R and RStudio installed, we'll begin by exploring RStudio: the interface, reading in data, and basic commands. Upon opening RStudio, you should see something similar to the window below:
+
+![](C:/Users/kmcco/OneDrive - University of North Carolina at Chapel Hill/Documents/UNC_Teaching/fall2024/bios600-f24/labs/images/lab-1/r3.png)
