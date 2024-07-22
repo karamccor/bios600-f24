@@ -26,11 +26,15 @@ library(countdown)
 
 ::: columns
 ::: {.column width="50%"}
-![Dr. Kara McCormack (she/her)](images/lec-1/me.png){fig-alt="Headshot of Dr. Mine Çetinkaya-Rundel" fig-align="center" width="200"}
+![Dr. Kara McCormack (she/her)](images/lec-1/me.png){fig-alt="Headshot of Dr. Kara McCormack" fig-align="center" width="200"}
 :::
 
 ::: {.column width="50%"}
 -   Teaching Assistant Professor, Department of Biostatistics
+-   PhD in Biostatistics from Duke University, 2023
+-   Originally from Austin, TX
+-   Interests: gardening, yoga, cats, and all kinds of art!
+
 :::
 :::
 
@@ -44,6 +48,15 @@ library(countdown)
 
 -   Go to [Ed Discussion 💬](https://edstem.org/us/join/Xjcr2d)
 -   Answer the discussion question: How are you doing?
+
+## Meet each other
+
+In small groups, share 
+
+  - Where you're from
+  - Your year/program
+  - What you hope to get out of this course
+  - Find something that everyone in your group has in common, that isn't necessarily common to the rest of the class.
 
 # Biostatistics
 
@@ -82,17 +95,17 @@ A process that converts data into useful information, whereby practitioners
 -   Use [Quarto](https://quarto.org/) to write reproducible reports.
 -   Communicate results from statistical analyses to a general audience.
 
-## Reproducibility and replicability
+## Reproducibility and replicability {.smaller}
 
-- Reproducibility: being able to take original data and code to reproduce all numerical findings. 
+-   **Reproducibility**: being able to take original data and code to reproduce all numerical findings.
 
-- Replicability: being able to independently repeat an entire study without use of the original data (generally with the same methods)
+-   **Replicability**: being able to independently repeat an entire study without use of the original data (generally with the same methods)
 
 Best practices from the American Statistical Association:
 
-- End-to-end scripting of research
-- Use of version control and documentation (we will not use this in our class)
-- Publication of code along with data
+-   End-to-end scripting of research
+-   Use of version control and documentation (we will not use this in our class)
+-   Publication of code along with data
 
 ## The current replication crisis
 
@@ -102,11 +115,9 @@ Best practices from the American Statistical Association:
 :::
 
 ::: {.column width="50%"}
-
 ![](images/lec-1/duke.png){width = 200}
 :::
 :::
-
 
 # Course overview
 
@@ -209,7 +220,7 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 ## Late work, waivers, regrades policy
 
 -   We have policies!
--   Read about them on the course syllabus (a .pdf version is available on Canvas.) Refer back to these policies when you need it. 
+-   Read about them on the course syllabus (a .pdf version is available on Canvas.) Refer back to these policies when you need it.
 
 ## Collaboration policy
 
@@ -255,4 +266,4 @@ I want to make sure that you learn everything you were hoping to learn from this
     -   Download RStudio
     -   Complete the first lab assignment
 -   Read the [syllabus](https://bios600-fa24.github.io/website/course-syllabus.html)!
--   Complete the [Getting to know you survey] by Thursday's class!
+-   Complete the \[Getting to know you survey\] by Thursday's class!
