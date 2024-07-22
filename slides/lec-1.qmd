@@ -40,10 +40,9 @@ library(countdown)
 -   Master's Student, Biostatistics department
 -   Will lead lab sections, 3:50-4:20, Room TBD
 
-## Check out Conversations
+## Check out Ed Discussion
 
--   Go to [Conversations 💬](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b)
--   Need to update. Ed discussions?
+-   Go to [Ed Discussion 💬](https://edstem.org/us/join/Xjcr2d)
 -   Answer the discussion question: How are you doing?
 
 # Biostatistics
@@ -52,21 +51,21 @@ library(countdown)
 
 A process that converts data into useful information, whereby practitioners
 
-1. form a question of interest
-2. collect and summarize data
-3. and interpret the results
+1.  form a question of interest
+2.  collect and summarize data
+3.  and interpret the results
 
 ## What is biostatistics good for?
 
-![](images/lec-1/hurricane.png){width=300}
+![](images/lec-1/hurricane.png){width="300"}
 
 ## What is biostatistics good for?
 
-![](images/lec-1/hospital.png){width=300}
+![](images/lec-1/hospital.png){width="300"}
 
 ## What is biostatistics good for?
 
-![](images/lec-1/incarceration.png){width=300}
+![](images/lec-1/incarceration.png){width="300"}
 
 ## Course FAQ
 
@@ -76,11 +75,11 @@ A process that converts data into useful information, whereby practitioners
 -   **Will we learn the mathematical theory of biostatistics?** Yes and No. The course is primarily focused on application; however, we will discuss some of the mathematics of biostatistics.
 :::
 
-## Course learning objectives
+## Some of what you'll learn
 
 -   Apply descriptive techniques commonly used to summarize public health data.
 -   Analyze real-world data to answer research questions in a biomedical setting.
--   Use [Quarto](https://quarto.org/) to write reproducible reports
+-   Use [Quarto](https://quarto.org/) to write reproducible reports.
 -   Communicate results from statistical analyses to a general audience.
 
 # Course overview
@@ -102,13 +101,12 @@ All linked from the course website:
 -   Discussion forum: \[Ed Discussions\]
 -   Assignment submission and feedback: \[Canvas\]
 
-
 ## What have I gotten myself into?
 
-- BIOS 600 is an introduction to biostatistics that:
-  - provides a tour of basic statistical methods commonly encountered in public health and biomedical research,
-  - emphasizes understanding of methods, using them to arrive at data-driven decisions, and effective communication of such results.
-  - Utilizes modern software such as RStudio to reproducibly examine and manipulate data to make sound scientific conclusions
+-   BIOS 600 is an introduction to biostatistics that:
+    -   provides a tour of basic statistical methods commonly encountered in public health and biomedical research,
+    -   emphasizes understanding of methods, using them to arrive at data-driven decisions, and effective communication of such results.
+    -   Utilizes modern software such as RStudio to reproducibly examine and manipulate data to make sound scientific conclusions
 
 ## Activities: Participate, Practice, Perform {.smaller}
 
@@ -125,7 +123,7 @@ All linked from the course website:
 -   **Labs:** Start and make large progress on Tuesday in lab section, finish up by Friday 5pm of that week
 -   **HWs:** Posted Friday morning, due following Friday 5pm
 -   **Exams:** In-person portion and take-home portion, more info as semester progresses.
--   **Project:** Towards end of semester,  most work done in teams outside of class
+-   **Project:** Towards end of semester, most work done in teams outside of class
 :::
 
 ## Teams
@@ -184,7 +182,7 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 
 ## Late work, waivers, regrades policy
 
--   We have policies! 
+-   We have policies!
 -   Read about them on the [course syllabus](https://bios600-fa24.github.io/website/course-syllabus.html) and refer back to them when you need it
 
 ## Collaboration policy
@@ -232,5 +230,3 @@ I want to make sure that you learn everything you were hoping to learn from this
     -   Complete the first lab assignment
 -   Read the syllabus!
 -   Complete the Getting to know you survey by Thursday's class!
-
-
