@@ -173,7 +173,7 @@ All linked from the course website:
 | Exam 02  | 10%        |
 | Exam 03  | 10%        |
 
-See [course syllabus](https://bios600-f24.github.io/website/course-syllabus.html) for how the final letter grade will be determined.
+See the course syllabus (.pdf available on Canvas) for how the final letter grade will be determined.
 
 ## Support
 
@@ -209,7 +209,7 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 ## Late work, waivers, regrades policy
 
 -   We have policies!
--   Read about them on the [course syllabus](https://bios600-fa24.github.io/website/course-syllabus.html) and refer back to them when you need it
+-   Read about them on the course syllabus (a .pdf version is available on Canvas.) Refer back to these policies when you need it. 
 
 ## Collaboration policy
 
