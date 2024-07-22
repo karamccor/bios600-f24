@@ -114,7 +114,7 @@ All linked from the course website:
 -   **Practice:** Practice applying statistical concepts and computing with lab exercises
 -   **Perform:** Put together what you've learned to analyze real-world data
     -   Homework assignments (individual, then team)
-    -   Three in-class exams
+    -   Three timed take-home exams, open book: short answer section on Canvas, and coding section that you'll do on your own.
     -   Term project presented during the final exam period
 
 ## Cadence
@@ -122,7 +122,7 @@ All linked from the course website:
 ::: incremental
 -   **Labs:** Start and make large progress on Tuesday in lab section, finish up by Friday 5pm of that week
 -   **HWs:** Posted Friday morning, due following Friday 5pm
--   **Exams:** In-person portion and take-home portion, more info as semester progresses.
+-   **Exams:** Take-home, open-book, timed, more info as semester progresses.
 -   **Project:** Towards end of semester, most work done in teams outside of class
 :::
 
