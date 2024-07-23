@@ -4,18 +4,18 @@ title: "Teaching team"
 
 ## Instructor
 
-![](images/team/kara.png){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Dr. Mine Çetinkaya-Rundel" width="200"}
+![](images/team/kara.png){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Dr. Kara McCormack" width="200"}
 
 Dr. Kara McCormack (she/her) is a Teaching Assistant Professor at the Department of Biostatistics at UNC-Chapel Hill. Kara's work focuses on (bio)statistics pedagogy, with an emphasis on equitable learning, reproducibility, and promoting diversity and a sense of community in STEM classrooms.
 
-| Office hours                  | Location                 |     |
-|-------------------------------|--------------------------|-----|
-| Tuesdays 10:00 am - 11:00 am  | McGavran-Greenberg 3106F |     |
+| Office hours                 | Location                 |     |
+|------------------------------|--------------------------|-----|
+| Tuesdays 10:00 am - 11:00 am | McGavran-Greenberg 3106F |     |
 
-If these times don't work for you or you'd like to schedule a one-on-one meeting, you can do so at \[insert link here\].
+If these times don't work for you or you'd like to schedule a one-on-one meeting, you can email me.
 
 ## Teaching assistant
 
-|                             | Name | Office hours | Location                                                                                                                  |
-|:----------:|------------|------------|------------------------------------|
-| ![](images/team/martha.png) | TBD  | TBD          | [Zoom](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/page/d5eef508-07a4-4c6d-b7bd-4614a9631562) |
+|     | Name | Office hours | Location    |
+|:------------:|--------------|--------------|-------------------------------|
+|  | TBD  | TBD          | Zoom link TBD |
