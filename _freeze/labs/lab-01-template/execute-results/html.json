@@ -1,0 +1,16 @@
+{
+  "hash": "312f17af1708a22a6f2a2189e00435aa",
+  "result": {
+    "markdown": "---\ntitle: Lab 01\nauthor: YOUR NAME GOES HERE\ndate: \"Due: Friday, January 29, 2021 at 11:59PM\"\noutput:\n  html_document\n---\n\n::: {.cell}\n\n```{.r .cell-code}\n# You may need to install the tidyverse packages, which you can do by running\n# the following line of code in the Console:\n\n# install.packages(\"tidyverse\")\n\nlibrary(tidyverse)\n\ncdc <- read.csv(\"https://www2.stat.duke.edu/courses/Spring21/sta102.001/labs/data/cdc_cleaned.csv\")\n```\n:::\n\n\n#### Exercise 1\n\nWrite your answer to Exercise 1 here.\n\n#### Exercise 2\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Use this R chunk to create your visualization for Exercise 2.\n```\n:::\n\n\n#### Exercise 3\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Use this R chunk to create your visualization for Exercise 3.\n```\n:::\n\n\nDescribe the distribution in Exercise 3 here. Make sure you include spaces \nbetween the R chunks, narrative paragraphs, and headers.\n\n#### Exercise 4\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Use this R chunk to create your visualization for Exercise 4.\n```\n:::\n\n\nUse this space to write your answer to Exercise 4.\n\n#### Exercise 5\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# ...and so on.\n```\n:::\n\n\nNarrative for Exercise 5 goes here.\n\n#### Exercise 6\n\n\n::: {.cell}\n\n:::\n\n\nRemember to knit your lab into an .html file and then save it as a .pdf in a \nweb browser.\n\n**Important:** You must turn in a .pdf file corresponding to the R Markdown template to Sakai in order to receive credit for the labs and homework assignments.",
+    "supporting": [
+      "lab-01-template_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
